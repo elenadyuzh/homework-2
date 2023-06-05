@@ -21,6 +21,19 @@
   Console.WriteLine($"третьей цифры числа {num} не существует");  
  }
  
+//Задача 3
+
+ Console.WriteLine("Введите цифру дня недели");
+ int d = Convert.ToInt32(Console.ReadLine);
+ if (d == 6 || d == 7)
+ {
+    Console.WriteLine($"Этот день {d} выходной ");
+ }
+ else
+ {
+  Console.WriteLine($"Этот день {d} рабочий");  
+ }
+ 
 
 
  
